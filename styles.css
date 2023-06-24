@@ -89,3 +89,31 @@ body {
   width: 1475px;
   height: 200px;
 }
+
+.Row2 {
+  background-color: rgb(22, 24, 25);
+  display: block;
+  border-radius: 10px;
+  z-index: 50;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 400px;
+  width: 1475px;
+  height: 200px;
+}
+
+.Row3 {
+  background-color: rgb(22, 24, 25);
+  display: block;
+  border-radius: 10px;
+  z-index: 50;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 630px;
+  width: 1475px;
+  height: 200px;
+}
+
+.video_player {
+  border-radius: 10px;
+}
