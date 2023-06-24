@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.SideMenu button {
+  z-index: 100;
+  display: block;
+  margin-left: 0px;
+  margin-right: auto;
+  width: 76px;
+  height: 76px;
+  background-color: rgb(31, 35, 38);
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: none;
+}
+
+.SideMenu button:hover {
+  background-color: rgb(41, 45, 48);
+  width: 80px;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.SideMenu button img {
+  filter: invert(100%);
+}
+
+.HeaderIcon {
+  width: 76px;
+  height: 120px;
+  background-color: rgb(17, 18, 19);
+}
+
+.SideMenu {
+  z-index: 100;
+  display: block;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  bottom: 0px;
+  width: 76px;
+  background-color: rgb(28, 32, 35);
+}
+
+.TitlePanel {
+  width: 1vp;
+  height: 120px;
+  margin-left: 76px;
+  margin-top: -120px;
+  background-color: rgb(31,35,38);
+}
+
+.TitleLabel {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 500;
+  top: 25px;
+  left: 125px;
+}
+
+.PageBody {
+  z-index: -500;
+  position: absolute;
+  display: block;
+  background-color: rgb(21, 23, 24);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.Row {
+  background-color: rgb(22, 24, 25);
+  display: block;
+  border-radius: 10px;
+  z-index: 50;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 170px;
+  width: 1475px;
+  height: 200px;
+}
