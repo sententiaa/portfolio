@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Other page</title>
+    <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/page2.html" aria-current="page">Other page</a>
-    </nav>
-    <main>
-      <h1>My other page</h1>
-    </main>
+    
+    <div class="HeaderIcon"></div>
+
+    <div class="TitlePanel">
+      <label class="TitleLabel" id="PageLabel">Placeholder</label>
+    </div>
+
+    <div class="SideMenu">
+        <button class="Projects"> <img src="https://www.svgrepo.com/show/498007/folder-add.svg" width="24"></button>
+        <button class="Images"> <img src="https://www.svgrepo.com/show/457194/image.svg" width="24"></button>
+        <button class="Projects"> <img src="https://www.svgrepo.com/show/490640/city-buildings.svg" width="24"></button>
+        <button class="Projects"> <img src="https://www.svgrepo.com/show/447926/calender.svg" width="24"></button>
+        <button class="Projects"> <img src="https://www.svgrepo.com/show/419232/basket-ecommerce-shop.svg" width="24"></button>
+        <button class="Projects"> <img src="https://www.svgrepo.com/show/500499/chat-square.svg" width="24"></button>
+    </div>
+
+    <div class="PageBody">
+        <div class="Row">
+        <video class="preview_video" src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/mp4" controls="controls" style="max-width: 750px;">
+      </video>
+        </div>
+    </div>
   </body>
 </html>
